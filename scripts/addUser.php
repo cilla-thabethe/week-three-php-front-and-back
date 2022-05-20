@@ -12,7 +12,7 @@ if(empty($_POST['name'] && $_POST['age'] && $_POST['occupation'])) {
 
     $sql = "INSERT INTO users (id, name, age, occupation) VALUES (NULL, '$name', '$age', '$occupation');";
     $result = mysqli_query($conn, $sql);
-    header("Location: http://localhost/week-three-php-front-and-back/");
+    header("Location: http://localhost:8888/week-three-php-front-and-back/");
 }
 
 

@@ -31,7 +31,7 @@ if($resultCheck > 0){
 
         $sqlUpdate = "UPDATE users SET name='$name', age='$age', occupation='$occupation' WHERE name='$selectedUser;";
         $result2 = mysqli_query($conn, $sqlUpdate);
-        header("Location: http://localhost/week-three-php-front-and-back/");
+        header("Location: http://localhost:8888/week-three-php-front-and-back/");
     }
     } else {
         echo "there is no user with that name"
